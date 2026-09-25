@@ -21,32 +21,6 @@ SecureBlogAPI is a FastAPI-based blog application that provides user authenticat
 - JWT (JSON Web Tokens)
 - Uvicorn
 
-## Project Structure
-
-```text
-SecureBlogAPI/
-├── fastapi/
-│   ├── README.md
-│   ├── __init__.py
-│   └── blog/
-│       ├── __init__.py
-│       ├── database.py
-│       ├── hashing.py
-│       ├── JWTtoken.py
-│       ├── main.py
-│       ├── models.py
-│       ├── oauth2.py
-│       ├── schemas.py
-│       ├── blog.db
-│       ├── repository/
-│       │   ├── blog.py
-│       │   └── user.py
-│       └── routers/
-│           ├── authentication.py
-│           ├── blog.py
-│           ├── user.py
-│           └── __init__.py
-└── README.md
 Getting Started
 1. Clone the repository
 bash
@@ -126,3 +100,31 @@ Fork the repository
 Create a feature branch
 Commit your changes
 Open a pull request
+
+
+## Project Structure
+
+```text
+SecureBlogAPI/
+├── fastapi/
+│   ├── README.md
+│   ├── __init__.py
+│   └── blog/
+│       ├── __init__.py
+│       ├── database.py
+│       ├── hashing.py
+│       ├── JWTtoken.py
+│       ├── main.py
+│       ├── models.py
+│       ├── oauth2.py
+│       ├── schemas.py
+│       ├── blog.db
+│       ├── repository/
+│       │   ├── blog.py
+│       │   └── user.py
+│       └── routers/
+│           ├── authentication.py
+│           ├── blog.py
+│           ├── user.py
+│           └── __init__.py
+└── README.md
